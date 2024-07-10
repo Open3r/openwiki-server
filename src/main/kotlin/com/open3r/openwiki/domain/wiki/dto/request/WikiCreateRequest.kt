@@ -1,4 +1,6 @@
 package com.open3r.openwiki.domain.wiki.dto.request
 
-class WikiCreateRequest {
-}
+data class WikiCreateRequest(
+    val title: String,
+    val content: String
+)
